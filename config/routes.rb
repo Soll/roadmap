@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  
+  root 'cells#index'
+  
+  get 'cells/index'
+  
+  get "/index" => 'cells#index'
+  
+  get 'cells/create'
+  
+  post "/index" => "cells#index", :as => :year
+  post "/cells/create" => "cells#create"
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

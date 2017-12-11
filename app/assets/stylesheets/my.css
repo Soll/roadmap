@@ -1,0 +1,97 @@
+.mainview {
+	
+	min-width: 992px;
+	align-self: center;
+	width: 992px;
+	display: inline-flex;
+}
+
+.card_holder {
+
+	width: 33%;
+	position: relative;
+	margin-right: 16px;
+	margin-bottom: 16px;
+
+}
+
+.good-button {
+	background-color: #fff;
+	border-color: #fff;
+}
+
+.good-button:hover {
+	border-color: #fff;
+}
+
+.right-handed {
+	text-align: right;
+	padding-top: 1.25em;
+}
+
+.centered {
+	text-align: center;
+	padding-top: 2.25em;
+}
+
+.border-dot {
+ 	border: 2px dashed rgba(0, 0, 0, 0.125);
+}
+
+.text-left {
+	text-align: left;
+  
+}
+
+.text-center {
+	text-align: center;
+}
+
+.full-height {
+	height: 100%;
+}
+
+.add-trip-div {
+	text-align: right;
+    margin-bottom: 12px;
+}
+
+.bucket-style {
+	position: fixed;
+    bottom: 40%;
+    right: 1%;
+    width: 12%;
+    display: none;
+}
+
+.centered {
+	align-items: center;
+}
+
+.red-blended {
+	background-color: rgba(243, 150, 155, 0.50) !important;
+}
+
+.red-hard {
+	background-color: rgba(243, 150, 155, 1) !important;
+}
+
+td .note {
+    padding: 10px;
+}
+.note {
+    position: relative;
+}
+.note:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+	width: 0; 
+	height: 0; 
+    display: block;
+	border-left: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	
+	border-top: 10px solid #f00;
+}
